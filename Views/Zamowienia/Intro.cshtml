@@ -1,0 +1,47 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<style>
+    body {
+        background-color: #F2E7DC;
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif;
+        padding-top: 100px;
+    }
+
+    .logo {
+        font-size: 60px;
+        font-weight: bold;
+        animation: fadein 3s;
+    }
+
+    .start-btn {
+        margin-top: 40px;
+        padding: 20px 40px;
+        font-size: 24px;
+        background-color: #A6635D;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+        .start-btn:hover {
+            background-color: #8E4A47;
+        }
+
+    @@keyframes fadein {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+
+<div class="logo" style="font-style: italic;">BallerinaCappucina</div>
+<div class="logo" style="font-style: italic;">Coffeehouse</div>
+<button class="start-btn" onclick="location.href='@Url.Action("Kiosk", "Zamowienia")'">Zaczynamy</button>

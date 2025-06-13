@@ -1,0 +1,113 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Sidebar pod headerem */
+    .main-wrapper {
+        display: flex;
+        flex-direction: row;
+        height: calc(100vh - 100px); /* wysokość - header */
+    }
+
+    header {
+        height: 100px; /* przykład – ustaw taką samą wysokość, jak faktyczny header */
+    }
+
+    .sidebar {
+        background-color: #A67D65;
+        padding-top: 1rem;
+        width: 200px;
+        overflow-y: auto;
+    }
+
+    .sidebar .list-group-item {
+        background-color: transparent;
+        color: white;
+        border: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .sidebar .list-group-item:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        padding-left: 1.5rem;
+        transform: translateX(5px);
+    }
+
+    .sidebar .active {
+        background-color: rgba(255, 255, 255, 0.3);
+        font-weight: bold;
+        border-radius: 10px;
+    }
+
+    .content-area {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+    }
+
+    @@media (max-width: 768px) {
+        .main-wrapper {
+            flex-direction: column;
+            height: auto;
+        }
+
+        .sidebar {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .sidebar .list-group {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .content-area {
+            margin-left: 0;
+            padding: 10px;
+        }
+    }
+</style>
+
+<!-- Layout zawiera header -->
+<!-- Główna część widoku pod nagłówkiem -->
+<div class="main-wrapper">
+    <!-- Pasek boczny -->
+    <div class="sidebar">
+        <ul class="list-group">
+            <li class="list-group-item active">Kawa</li>
+            <li class="list-group-item">Herbata</li>
+            <li class="list-group-item">Ciasta</li>
+            <li class="list-group-item">Śniadania</li>
+        </ul>
+    </div>
+
+    <!-- Produkty -->
+    <div class="content-area">
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Cappuccino</h5>
+                        <p class="card-text">Pyszna kawa z mlekiem</p>
+                        <button class="btn btn-primary">Dodaj</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Kolejne produkty -->
+        </div>
+    </div>
+</div>
