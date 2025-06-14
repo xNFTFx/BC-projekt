@@ -5,12 +5,9 @@ using System.Web;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace BallerinaCappucina01.Controllers
+namespace bc.Controllers
 {
 
-
-    namespace BallerinaCappucina01.Controllers
-    {
         public class ZamowieniaController : Controller
         {
             public ActionResult Kiosk()
@@ -34,5 +31,5 @@ namespace BallerinaCappucina01.Controllers
         }
     }
 
-}
+
 
