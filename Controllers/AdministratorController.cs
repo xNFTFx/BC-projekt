@@ -12,6 +12,10 @@ namespace bc.Controllers
         {
             return View();
         }
+        public ActionResult Crud()
+        {
+            return View(); 
+        }
     }
 
 }

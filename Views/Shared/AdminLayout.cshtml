@@ -7,6 +7,9 @@
     <meta charset="utf-8" />
     <title>@ViewBag.Title - Panel Administratora</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/1edc22dcad.js" crossorigin="anonymous"></script>
+
 
     @* @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr") *@
@@ -20,13 +23,49 @@
         }
 
         header {
+            display: flex;
+            align-items: center;
             background-color: #735438;
             padding: 20px;
             color: #fff;
-            text-align: center;
             font-size: 1.5rem;
             font-weight: bold;
+            position: relative;
         }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        header > span {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap; 
+        }
+        .btn-home, .btn-admin {
+            background-color: #FAB7CF;
+            color: black;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.3s ease;
+            position: relative; 
+        }
+
+
+
+            .btn-home:hover, .btn-admin:hover {
+                background-color: #ff8fbf;
+            }
+
+        
 
         .admin-content {
             max-width: 1000px;
@@ -108,8 +147,18 @@
 </head>
 <body>
     <header>
-        Panel Administratora
+        <div class="header-buttons">
+            <a href="@Url.Action("Kiosk", "ZamowieniaView")" class="btn-home" title="Strona główna">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <a href="@Url.Action("Crud", "Administrator")" class="btn-admin" title="Zarządzaj CRUD">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+        <span>Panel Administratora</span>
     </header>
+
+
 
     <div class="admin-content">
         @RenderBody()
