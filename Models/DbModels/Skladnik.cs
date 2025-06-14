@@ -12,6 +12,7 @@ namespace bc.Models.DbModels
         [Required]
         public string NazwaSkladnika { get; set; }
 
+        public Skladnik() { }
         public Skladnik(string nazwaSkladnika)
         {
             NazwaSkladnika = nazwaSkladnika;
