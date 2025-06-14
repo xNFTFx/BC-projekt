@@ -17,173 +17,201 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = bc
 build_property.RootNamespace = bc
-build_property.ProjectDir = C:\Users\szbuc\source\repos\bc\
+build_property.ProjectDir = C:\Users\piotr\Source\Repos\BC-projekt\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\szbuc\source\repos\bc
+build_property.MSBuildProjectDirectory = C:\Users\piotr\Source\Repos\BC-projekt
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Home/Index.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Administrator/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Administrator/Crud.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxDcnVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Home/Privacy.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Kategorias/Create.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Kategorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Kategorias/Delete.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Kategorias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Kategorias/Details.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Kategorias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Kategorias/Edit.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Kategorias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Kategorias/Index.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Kategorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Produkts/Create.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Produkts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Produkts/Delete.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Produkts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Produkts/Details.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Produkts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Produkts/Edit.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Produkts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Produkts/Index.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Produkts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVrdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/AdminLayout.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/Error.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/Lockout.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/LayoutCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/LayoutDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/LayoutDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/LayoutEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExheW91dEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/ZamowienieLayout.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/ZamowienieLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFphbW93aWVuaWVMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/_Layout1.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/_CrudLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcnVkTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/_Layout1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/_Modal.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/_Modal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Skladniks/Create.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Skladniks/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Skladniks/Delete.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Skladniks/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Skladniks/Details.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Skladniks/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Skladniks/Edit.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Skladniks/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Skladniks/Index.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Skladniks/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2tsYWRuaWtzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/ZamowieniaView/Intro.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/ZamowieniaView/Intro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVZpZXdcSW50cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/ZamowieniaView/Kiosk.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/ZamowieniaView/Kiosk.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVZpZXdcS2lvc2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/ZamowieniaView/Kiosk2.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/ZamowieniaView/Kiosk2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVZpZXdcS2lvc2syLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/ZamowieniaView/Kiosk3.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/ZamowieniaView/Kiosk3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVZpZXdcS2lvc2szLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/ZamowieniaView/Zamowienie.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/ZamowieniaView/Zamowienie.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVZpZXdcWmFtb3dpZW5pZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Zamowienia/Intro.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Zamowienia/Intro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVxJbnRyby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Zamowienia/Kiosk.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Zamowienia/Kiosk.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pYVxLaW9zay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Zamowienies/Create.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Zamowienies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Zamowienies/Delete.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Zamowienies/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Zamowienies/Details.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Zamowienies/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Zamowienies/Edit.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Zamowienies/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Zamowienies/Index.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Zamowienies/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFtb3dpZW5pZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/_ViewImports.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/_ViewStart.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/szbuc/source/repos/bc/Views/Shared/_Layout.cshtml]
+[C:/Users/piotr/Source/Repos/BC-projekt/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-shznyi6nir
