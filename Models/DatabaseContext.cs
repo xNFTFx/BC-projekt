@@ -1,11 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System; 
 
 namespace bc.Models.DbModels
 {
     public class DatabaseContext : DbContext
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
-       : base(options)
+           : base(options)
         {
         }
 
@@ -15,10 +16,18 @@ namespace bc.Models.DbModels
         public DbSet<Zamowienie> Zamowienia { get; set; }
         public DbSet<ProduktZamowienie> ProduktyZamowienia { get; set; }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            // Dodaj konfigurację dla właściwości KwotaZamowienia w Zamowienie
+            // Określa precyzję (całkowitą liczbę cyfr) i skalę (liczbę cyfr po przecinku)
+            // np. HasPrecision(18, 2) oznacza 18 cyfr w sumie, z czego 2 po przecinku.
+            modelBuilder.Entity<Zamowienie>()
+                .Property(z => z.KwotaZamowienia)
+                .HasPrecision(18, 2); // Możesz dostosować precyzję i skalę według potrzeb
+
+            // Pozostałe HasData...
 
             modelBuilder.Entity<Kategoria>().HasData(
                 new Kategoria { IdKategorii = 1, Name = "Kawa" },
@@ -37,22 +46,25 @@ namespace bc.Models.DbModels
                 new Skladnik { IdSkladnika = 2, NazwaSkladnika = "Cukier" },
                 new Skladnik { IdSkladnika = 3, NazwaSkladnika = "Cytryna" }
             );
+
             modelBuilder.Entity<Zamowienie>().HasData(
                 new Zamowienie
                 {
                     IdZamowienia = 1,
-                    DataZamowienia = DateTime.Now,
+                    // Zmień DateTime.Now na stałą wartość DateTime
+                    DataZamowienia = new DateTime(2023, 1, 15, 10, 30, 0),
                     KwotaZamowienia = 15.99m,
                     StatusZamowienia = Status.przygotowywany
                 },
-                 new Zamowienie
-                 {
-                     IdZamowienia = 2,
-                     DataZamowienia = DateTime.Now,
-                     KwotaZamowienia = 25.50m,
-                     StatusZamowienia = Status.gotowy
-                 }
-                 );
+                new Zamowienie
+                {
+                    IdZamowienia = 2,
+                    // Zmień DateTime.Now na stałą wartość DateTime
+                    DataZamowienia = new DateTime(2023, 1, 16, 11, 0, 0),
+                    KwotaZamowienia = 25.50m,
+                    StatusZamowienia = Status.gotowy
+                }
+            );
 
             modelBuilder.Entity<ProduktZamowienie>().HasData(
                 new ProduktZamowienie { PzId = 1, ProduktId = 1, ZamowienieId = 1, Ilosc = 2 },
@@ -60,5 +72,4 @@ namespace bc.Models.DbModels
             );
         }
     }
-
 }
