@@ -5,11 +5,13 @@ namespace bc.Models.DbModels
 {
     public class Produkt
     {
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdProduktu { get; set; }
         [Required]
         public string NazwaProduktu { get; set; }
+        public int IdKategorii { get; set; }
         [ForeignKey("IdKategorii")]
         public virtual Kategoria? Kategoria { get; set; }
 
@@ -22,5 +24,7 @@ namespace bc.Models.DbModels
             NazwaProduktu = nazwa;
             Kategoria = kategoria;
         }
+
+
     }
 }

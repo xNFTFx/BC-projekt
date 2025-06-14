@@ -10,9 +10,9 @@ namespace bc.Models.DbModels
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdZamowienia { get; set; }
         [Required]
-        public DateTime DataZamowienia;
+        public DateTime DataZamowienia { get; set; }
         [Required]
-        public decimal KwotaZamowienia;
+        public decimal KwotaZamowienia { get; set; }
 
         public Status StatusZamowienia { get; set; }
 

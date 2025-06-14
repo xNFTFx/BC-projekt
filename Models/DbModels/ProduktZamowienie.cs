@@ -7,13 +7,18 @@ namespace bc.Models.DbModels
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int PzId;
+        public int PzId { get; set; }
 
-        [ForeignKey("IdProduktu")]
-        public int ProduktId;
+        public int ProduktId { get; set; }
+        [ForeignKey("ProduktId")]
+        public virtual Produkt Produkt { get; set; }
+
+        public int ZamowienieId { get; set; }
+        [ForeignKey("ZamowienieId")]
+        public virtual Zamowienie Zamowienie { get; set; }
+
         [Required]
-        public int Ilosc;
-        [ForeignKey("IdZamowienia")]
-        public int ZamowienieId;
+        public int Ilosc { get; set; }
     }
+
 }
